@@ -1,7 +1,7 @@
 * {
   margin: 0;
   box-sizing: border-box;
-  
+  font-family: 'Poppins', sans-serif;
 }
 body {
   background-color: #fff;
@@ -25,7 +25,7 @@ h1 {
 }
 main {
   display: grid;
-  grid-template-rows: 33% 45% 17% 5%;
+  grid-template-rows: 30% 45% 18% 5%;
   height: 100vh;
 }
 
@@ -70,7 +70,7 @@ form {
 input[type="text"] {
   height: 3rem;
   border-radius: 1rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 0 2rem;
   border: none;
   flex-grow: 2;
@@ -80,17 +80,18 @@ button {
   font-size: 1rem;
   font-weight: bold;
   background-color: #b7c4ea;
-  padding: 1rem;
+  padding: 0.75rem;
 }
 form button{
   position: relative;
   padding-bottom: 0.75rem;
-  right: 11%;
+  right: 10%;
   border-bottom-right-radius: 1rem;
   border-top-right-radius: 1rem;
 }
 .core-button {
   border-radius: 1rem;
+  margin-bottom: 1rem;
 }
 
 ::placeholder {
