@@ -50,8 +50,8 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 60%;
-  width: 30%;
+  height: 60vh;
+  width: 30vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,7 +64,7 @@ main {
 }
 form {
   display: flex;
-  width: 30%;
+  width: 30vw;
   margin-left: 5rem;
 }
 input[type="text"] {
@@ -84,8 +84,8 @@ button {
 }
 form button{
   position: relative;
-  padding-bottom: 0.75rem;
-  right: 10%;
+  padding-bottom: 0.6rem;
+  right: 3.55rem;
   border-bottom-right-radius: 1rem;
   border-top-right-radius: 1rem;
 }
@@ -128,6 +128,6 @@ figure img {
 menu {
   display: flex;
   justify-content: space-between;
-  width: 20%;
+  width: 25vw;
   padding: 0;
 }
