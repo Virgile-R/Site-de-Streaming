@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+body {
+  background-color: #fff;
+}
+footer {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  margin-top: 0.75rem;
+
+}
+.footer-link {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.75rem;
+  color: black;
+}
+h1 {
+  font-size: 3.5rem;
+  color: white;
+}
+main {
+  display: grid;
+  grid-template-rows: 33% 45% 17% 5%;
+  height: 100vh;
+}
+
+#jumbotron {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../img/accueil/jumbotron.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#recommandations {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#background {
+  background-image: url("/assets/img/accueil/recommandations.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+  margin-top: 2rem;
+}
+#jumbotron a {
+  font-size: 1.75rem;
+  color: white;
+}
+form {
+  display: flex;
+  width: 30%;
+  margin-left: 5rem;
+}
+input[type="text"] {
+  height: 3rem;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  padding: 0 2rem;
+  border: none;
+  flex-grow: 2;
+}
+button {
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #b7c4ea;
+  padding: 1rem;
+}
+form button{
+  position: relative;
+  padding-bottom: 0.75rem;
+  right: 11%;
+  border-bottom-right-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.core-button {
+  border-radius: 1rem;
+}
+
+::placeholder {
+  font-size: 1.2rem;
+}
+figure {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 30%;
+  position: relative;
+  bottom: 10%;
+}
+figure img {
+  width: 100px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 2rem;
+}
+#adds {
+  background-image: url("/assets/img/accueil/annonce.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+#adds p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+menu {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  padding: 0;
+}
