@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+
+main{
+    margin: 0px 30px 140px 30px;
+    
+}
+
+body, h2{
+    margin: 0;
+}
+
+p{
+    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+
+h3, a, .text1{
+    color: black;
+}
+
+h3{
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+i{
+    color: #434c7c;
+    background-color: #b7bfea;
+    border-radius: 90px;
+    font-size: 24px;
+    padding: 10px;
+    height: 44px;
+    margin: 30px 0px 0px 14px;
+}
+
+button{
+    border: none;
+    border-radius: 7px;
+    padding: 8px 32px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.text1{
+    background-color: #b7c4ea;
+}
+
+.text2{
+    margin-top: 75px;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+}
+
+.header{
+    display: flex;
+    background-image: url(../img/flux/headerpic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.head1{
+    margin: 100px 80px 50px 90px;
+    width: 75%;
+}
+
+.head2{
+    width: 25%;
+    display: flex;
+}
+
+
+.block{
+    margin: 65px 25px 25px 25px;
+}
+
+
+.s1, .s2, .s3{
+    width: 33.33%;
+}
+
+.s1{
+    margin-right: 5px;
+    background-image: url(../img/flux/sug1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.s2{
+    margin: 0px 5px;
+    background-image: url(../img/flux/sug2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.s3{
+    margin-left: 5px;
+    background-image: url(../img/flux/sug3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.t1, .t2, .t3, .t4{
+    height: 180px;
+    width: 25%;
+    text-align: center;
+}
+
+.t1{
+    margin-right: 5px;
+    background-image: url(../img/flux/tel1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.t2{
+    margin: 0px 5px;
+    background-image: url(../img/flux/tel2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.t3{
+    margin: 0px 5px;
+    background-image: url(../img/flux/tel3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.t4{
+    margin-left: 5px;
+    background-image: url(../img/flux/tel4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 900;
+    margin: 0px 150px;
+    font-size: 1.75rem;
+
+}
