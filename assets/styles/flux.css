@@ -159,8 +159,17 @@ button{
 
 a{
     text-decoration: none;
+}
+
+.linkp{
+    color: white;
+    margin-top: 38px;
+    font-weight: 500;
+    font-size: 1.17rem;
+}
+
+.custom {
     font-weight: 900;
     margin: 0px 150px;
     font-size: 1.75rem;
-
 }
